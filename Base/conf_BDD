@@ -1,0 +1,10 @@
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'gestion_postulaciones',
+        'USER': 'tu_usuario_mysql',
+        'PASSWORD': 'tu_contraseña_mysql',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
